@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "География юридических услуг в России"
+  author: "Сёмин Павел Олегович"
+  date: "2024-05-25"
+  chapters:
+    - index.qmd
+    - part: "Теоретические основы исследования"
+      chapters:
+        - theory-geography-of-services.qmd
+        - theory-geography-of-law.qmd
+    - part: "Данные и методы исследования"
+    - part: "Результаты исследования и их обсуждение"
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  docx:
+    number-sections: true
+
+lang: ru
+
